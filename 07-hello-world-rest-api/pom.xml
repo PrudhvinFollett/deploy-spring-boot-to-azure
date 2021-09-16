@@ -42,7 +42,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>hello-world-rest-api</finalName>
+		<finalName>hello-world</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -54,10 +54,10 @@
 				<version>1.7.0</version>
 				<configuration>
 					<schemaVersion>V2</schemaVersion>
-					<resourceGroup>hello-world-rest-api-v2-rg</resourceGroup>
-					<appName>hello-world-rest-api-v2-in28minutes</appName>
-					<pricingTier>B1</pricingTier>
-					<region>westeurope</region>
+					<resourceGroup>stguse2-destinycdl-dev-rg</resourceGroup>
+					<appName>stguse2-destinycdl-dev-rg</appName>
+					<pricingTier>S1</pricingTier>
+					<region>eastus2</region>
 					<appSettings>
 						<property>
 							<name>JAVA_OPTS</name>
